@@ -12,9 +12,7 @@
     <p>Age: <%= student.age %></p>
     <p>Course: <%= student.course %></p>
 
-    <form action="/student/<%= student._id %>/edit" method="POST">
-        <button type="submit">Edit</button>
-    </form>
+    <a href="/student/<%= student._id %>/edit">Edit</a>
 
     <form action="/student/<%= student._id %>?_method=DELETE" method="POST">
         <button type="submit">Delete</button>

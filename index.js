@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const methodOverride = require("method-override");
 const app = express();
 
-mongoose.connect("mongodb://20.0.153.128:10999/BrendanDB", { 
+mongoose.connect("mongodb://20.0.153.128:10999/studentDB", { 
     useNewUrlParser: true, 
     useUnifiedTopology: true,  
     }) 

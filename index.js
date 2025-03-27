@@ -23,4 +23,4 @@ app.get("/", (req, res) => {
     res.redirect("/students"); 
 }); 
 
-app.listen(3000, "Server us up and running on port 3000")
+app.listen(3000, () => console.log("Server is running on port 3000")); 
